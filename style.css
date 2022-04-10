@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,300&display=swap");
+
+/* CSS Variables */
+:root {
+  --background-color: #d5e1ef;
+  --accent-color: #151e36;
+  --accent-color-2: #787b82;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+main {
+  background-color: var(--background-color);
+  padding: 3rem 1rem;
+}
+
+.card {
+  max-width: 300px;
+  margin: auto;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 15px 15px 35px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+  box-shadow: 9px 7px 27px -17px rgba(54, 54, 54, 0.21);
+}
+
+.card img {
+  border-radius: 10px;
+}
+
+.card .heading {
+  font-size: 1.25rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  line-height: 1.6rem;
+  color: var(--accent-color);
+}
+
+.card .description {
+  color: var(--accent-color-2);
+}
+
+/* Small devices (landscape phones, 640px and up) */
+@media (min-width: 640px) {
+  main {
+    padding: 8rem 5rem;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 1024px and up) */
+@media (min-width: 1024px) {
+}
+
+/* XL-Large devices (large desktops, 1280px and up) */
+@media (min-width: 1280px) {
+}
+
+/* 2XL -Large devices (larger desktops, 1536px and up) */
+@media (min-width: 1536px) {
+}
